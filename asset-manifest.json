@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/coba-deploy/static/css/main.a440eb04.chunk.css",
+    "main.js": "/coba-deploy/static/js/main.483bf6c1.chunk.js",
+    "main.js.map": "/coba-deploy/static/js/main.483bf6c1.chunk.js.map",
+    "runtime-main.js": "/coba-deploy/static/js/runtime-main.dddf8754.js",
+    "runtime-main.js.map": "/coba-deploy/static/js/runtime-main.dddf8754.js.map",
+    "static/js/2.edf1a479.chunk.js": "/coba-deploy/static/js/2.edf1a479.chunk.js",
+    "static/js/2.edf1a479.chunk.js.map": "/coba-deploy/static/js/2.edf1a479.chunk.js.map",
+    "static/js/3.e2844afa.chunk.js": "/coba-deploy/static/js/3.e2844afa.chunk.js",
+    "static/js/3.e2844afa.chunk.js.map": "/coba-deploy/static/js/3.e2844afa.chunk.js.map",
+    "index.html": "/coba-deploy/index.html",
+    "static/css/main.a440eb04.chunk.css.map": "/coba-deploy/static/css/main.a440eb04.chunk.css.map",
+    "static/js/2.edf1a479.chunk.js.LICENSE.txt": "/coba-deploy/static/js/2.edf1a479.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/coba-deploy/static/media/Montserrat-Regular.3cd78665.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dddf8754.js",
+    "static/js/2.edf1a479.chunk.js",
+    "static/css/main.a440eb04.chunk.css",
+    "static/js/main.483bf6c1.chunk.js"
+  ]
+}
