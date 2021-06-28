@@ -1,0 +1,122 @@
+.todoWrap{
+    width: 40%;
+    min-height: 450px;
+    height: fit-content;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 10px;
+}
+
+.todoWrap h1{
+    font-size: 3.5em;
+}
+
+.addTodo{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    background-color: white;
+    padding: 2px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.inputForm .inputWrap{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    min-width: 300px;
+    padding: 5px 10px;
+}
+
+.inputForm input {
+    height: 30px;
+    padding: 2px 5px;
+    width: 300px;
+    outline: none;
+    border: none;
+}
+
+.inputForm button{
+    font-weight: 500;
+    font-size: 12pt;
+    border: none;
+    height: 30px;
+    width: 30px;
+    background-color: #FF9E42;
+}
+
+.inputForm button:hover{
+    background-color: #fcab60;
+}
+
+.inputForm select{
+    border: none;
+    height: 30px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.barWrap {
+    width: 350px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.todobar{
+    height: 30px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    color: black;
+    padding: 2px 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    justify-content: flex-start;
+}
+
+.divtext{
+    padding: 2px 5px;
+    width: 85%;
+    justify-self: start;
+    overflow-x: hidden;
+}
+
+.button-div{
+    justify-self: end;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+/* On Delete */
+.remove{
+    transform-origin: 0% 100%;
+    animation-name: disappear;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes disappear {
+    0%{
+        opacity: 1;
+        transform: rotate(15deg);
+    }50%{
+        opacity: 0.5;
+        transform: rotate(30deg);
+    }100%{
+        opacity: 0;
+        transform: rotate(45deg);
+    }
+}
+
+
